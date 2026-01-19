@@ -18,6 +18,7 @@ h1{
     h1:hover{
         color: yellow;
     }
+
 }
 }
 img2{
@@ -44,8 +45,11 @@ justify-content: space-between;
     color: yellow;
 }
 div{
-        position: absolute;
-        width: 100%;
+    background-size: cover;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+        position: absolute; 
         height: 100%;
         object-fit: cover;
         z-index: -1;
