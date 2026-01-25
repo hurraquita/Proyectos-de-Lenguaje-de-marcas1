@@ -1,0 +1,138 @@
+
+*{
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border: 0rem solid black;
+}
+
+header{
+background-color: pink;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+h1{
+    color: blanchedalmond;
+    h1:hover{
+        color: yellow;
+    }
+
+}
+}
+img2{
+   width: 500px;
+        height: 240px;
+        border-radius: 0%;
+        border: 0.3rem solid purple;
+}
+main{
+    p1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+}
+
+.prueba {
+    /*con la herramienta prueba puedes hacer infinidad de cosas como por ejemplo abajo
+    con el hover al poner los ":" te sale el menu de cosas */
+    color: blanchedalmond;
+}
+
+.prueba:hover {
+    color: yellow;
+}
+.fondo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 16 px;
+    font-weight: bold;
+    transition: color 0.3s;
+        width: 30%;
+        height: 30%;
+        border-radius: 10%;
+        border: 0.3rem solid purple;
+        background-color: purple;
+}
+nav ul li a:hover {
+color: yellow;
+}
+p1{
+    color: blanchedalmond;
+            width: 100%;
+        height: 30%;
+        border-radius: 0%;
+        border: 0.3rem solid purple;
+        background-color: purple;
+        text-align: center;
+}
+footer{
+    background-color: purple;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 15px;
+    margin-top: 45px;
+}
+.cajas{
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+    border: 0.3rem solid purple;
+    filter: blur(10px);
+}
+.cajas:hover{
+    filter: blur(0px);
+}
+.piro {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.listas {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 0.3rem solid purple;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+    max-width: 400px;
+    background-color: purple;
+    color: blanchedalmond;
+    padding: 15px;
+    border: 0.3rem solid purple;
+}
+
+#Gap_cajas{
+margin-top: 30px;
+}
